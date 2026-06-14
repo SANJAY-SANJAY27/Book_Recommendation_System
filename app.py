@@ -12,7 +12,7 @@ st.title("📚 Book Recommendation System")
 try:
     # Load Dataset
     books = pd.read_csv(
-        r"C:\Users\sanju\OneDrive\Documents\Desktop\New  book project\Books_small.csv",
+        "C:\Users\sanju\OneDrive\Documents\Desktop\New  book project\Books_small.csv",
         low_memory=False,
         encoding="latin-1"
     )
